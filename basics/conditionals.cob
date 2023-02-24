@@ -34,7 +34,7 @@ PROCEDURE DIVISION.
             DISPLAY 'Switch: NUM > 2'
     END-EVALUATE.
 
-    *> SetCHECK-VAL
+    *> Set CHECK-VAL
     MOVE 10 TO CHECK-VAL.
     IF PASS
         DISPLAY 'Passed: 'CHECK-VAL'.'.
