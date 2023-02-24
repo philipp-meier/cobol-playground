@@ -5,10 +5,10 @@ Playground to experiment with the COBOL programming language.
 `apt install gnucobol4`
 
 ## Compile:
-`cobc -free -x -o helloworld hello-world.cob`
+`cobc -free -x -o _output/hello-world basics/hello-world.cob`
 
 ## Execute:
-`./helloworld`
+`./_output/hello-world`
 
 ## General information:
 `PIC` is short for "picture" and is used to define a variable.
@@ -20,13 +20,6 @@ Playground to experiment with the COBOL programming language.
 - `X` = alphanumeric
 - `V` = decimal
 - `S` = sign
-
-## Common Math-Functions:
-- `compute` - **Example:** `COMPUTE NUM3 = (NUM1 * NUM2).`
-- `divide` - **Example:** `DIVIDE NUM1 BY NUM2 GIVING RESULT-DIV.`
-- `multiply` - **Example:** `MULTIPLY NUM1 BY NUM2 GIVING RESULT-MULT.`
-- `subtract` - **Example:** `SUBTRACT NUM2 FROM NUM1 GIVING RESULT-SUB.`
-- `add` - **Example:** `NUM1 TO NUM2 GIVING RESULT-ADD.`
 
 ## VSCode Extensions
 - bitlang.cobol
