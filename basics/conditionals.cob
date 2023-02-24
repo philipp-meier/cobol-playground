@@ -1,6 +1,6 @@
 IDENTIFICATION DIVISION.
 
-PROGRAM-ID. exa03_conditionals.
+PROGRAM-ID. conditionals.
 
 DATA DIVISION.
 

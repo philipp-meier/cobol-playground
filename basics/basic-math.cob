@@ -1,6 +1,6 @@
 IDENTIFICATION DIVISION.
 
-PROGRAM-ID. exa02_basic_math_functions.
+PROGRAM-ID. basic-math.
 
 DATA DIVISION.
 

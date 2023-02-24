@@ -1,6 +1,6 @@
 IDENTIFICATION DIVISION.
 
-PROGRAM-ID. exa01_variables.
+PROGRAM-ID. variables.
 
 DATA DIVISION.
 
